@@ -13,21 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    name: Docker Image Small Alpine
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-jobs:
-
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
       -
         name: Checkout 
         uses: actions/checkout@v2.1.0
